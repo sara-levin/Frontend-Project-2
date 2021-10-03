@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo Search Engine via Pixabay. Search for any photo in any colour right here!">
+    <title>Photo Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src= 'main.js' defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="Header">Photo Search Engine</h1>
+        <h2 id="Subheader">via Pixabay.com</h2>
+    </header>
+
+    <form id= "searchform">
+        <input type="search" name="query" id="search">
+        <select name="colors" id="colors">
+            <option value=null>All Colours</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="lilac">Purple</option>
+        </select>
+        <button type="submit" id="submit">Search</button>
+        <img src="" hidden>
+        <section id="buttons">
+          <button type="button" id="backwards">Backwards</button>
+            <button type="button" id="forwards">Forwards</button>
+        </section>
+    </form>
+
+    <figure id="bilder"></figure>
+    
+    <footer>
+        <h3>Made by: Sara Levin & Leonora Cronander</h3>
+    </footer>
+</body>
+</html>
